@@ -6,11 +6,13 @@
 
 **Professional AI-powered background removal tool with stunning 3D interface**
 
+[![Latest Release](https://img.shields.io/github/v/release/kevinriverrrr-sudo/PhotoRemover?style=flat-square&label=version)](https://github.com/kevinriverrrr-sudo/PhotoRemover/releases/latest)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.171-black?style=flat-square&logo=three.js)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.170-black?style=flat-square&logo=three.js)](https://threejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Deploy Status](https://img.shields.io/badge/deploy-ready-success?style=flat-square)](https://github.com/kevinriverrrr-sudo/PhotoRemover/blob/main/docs/DEPLOYMENT.md)
 
 [Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [API Setup](#-api-setup) • [Usage](#-usage) • [Contributing](#-contributing)
 
