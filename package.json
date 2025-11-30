@@ -1,0 +1,55 @@
+{
+  "name": "photoremover",
+  "version": "1.0.0",
+  "description": "Professional AI-powered background removal tool with stunning 3D interface",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "axios": "^1.7.9",
+    "three": "^0.171.0",
+    "@react-three/fiber": "^8.18.5",
+    "@react-three/drei": "^9.119.2",
+    "lucide-react": "^0.468.0",
+    "framer-motion": "^11.15.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.171.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  },
+  "author": "kevinriverrrr-sudo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinriverrrr-sudo/PhotoRemover"
+  },
+  "keywords": [
+    "background-removal",
+    "ai",
+    "image-processing",
+    "react",
+    "typescript",
+    "3d-interface",
+    "remove-bg",
+    "photo-editing"
+  ]
+}
