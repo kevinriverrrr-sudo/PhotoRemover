@@ -1,0 +1,10 @@
+# Custom Domain Configuration
+
+# If you want to use a custom domain, rename this file to CNAME
+# and add your domain name (one line, no protocol):
+# example.com
+# or
+# subdomain.example.com
+
+# For now, the site uses GitHub Pages default URL:
+# https://kevinriverrrr-sudo.github.io/PhotoRemover/
