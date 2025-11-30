@@ -8,13 +8,13 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/kevinriverrrr-sudo/PhotoRemover?style=flat-square&label=version)](https://github.com/kevinriverrrr-sudo/PhotoRemover/releases/latest)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![Deploy Status](https://img.shields.io/badge/deploy-ready-success?style=flat-square)](https://kevinriverrrr-sudo.github.io/PhotoRemover/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.170-black?style=flat-square&logo=three.js)](https://threejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![Deploy Status](https://img.shields.io/badge/deploy-ready-success?style=flat-square)](https://github.com/kevinriverrrr-sudo/PhotoRemover/blob/main/docs/DEPLOYMENT.md)
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [API Setup](#-api-setup) • [Usage](#-usage) • [Contributing](#-contributing)
+🌍 **[Live Demo](https://kevinriverrrr-sudo.github.io/PhotoRemover/)** | [Features](#-features) • [Installation](#-installation) • [API Setup](#-api-setup) • [Usage](#-usage) • [Contributing](#-contributing)
 
 </div>
 
@@ -51,20 +51,13 @@
 
 ---
 
-## 🖼️ Demo
+## 🌍 Live Demo
+
+**Try it now:** https://kevinriverrrr-sudo.github.io/PhotoRemover/
 
 ### Screenshots
 
-> **Note:** Screenshots will be added after deployment
-
-**Main Interface**
-![Main Interface](./screenshots/main.png)
-
-**Processing**
-![Processing](./screenshots/processing.png)
-
-**Result**
-![Result](./screenshots/result.png)
+> **Note:** Screenshots will be updated soon
 
 ---
 
@@ -84,10 +77,6 @@ cd PhotoRemover
 
 # Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
 
 # Copy environment file
 cp .env.example .env
@@ -115,11 +104,7 @@ Select one of the following services based on your needs:
 - **Quality:** ⭐⭐⭐⭐⭐ Excellent
 - **Speed:** ⚡⚡⚡⚡ Fast
 
-**Get API Key:**
-1. Visit [remove.bg/api](https://www.remove.bg/api)
-2. Sign up for a free account
-3. Navigate to Dashboard → API Keys
-4. Copy your API key
+**Get API Key:** [remove.bg/api](https://www.remove.bg/api)
 
 #### 🥈 PhotoRoom (Recommended for Speed)
 - **Free Tier:** 25 images/month
@@ -127,11 +112,7 @@ Select one of the following services based on your needs:
 - **Quality:** ⭐⭐⭐⭐⭐ Excellent
 - **Speed:** ⚡⚡⚡⚡⚡ Very Fast
 
-**Get API Key:**
-1. Visit [photoroom.com/api](https://www.photoroom.com/api)
-2. Create an account
-3. Go to API Dashboard
-4. Generate your API key
+**Get API Key:** [photoroom.com/api](https://www.photoroom.com/api)
 
 #### 🥉 WithoutBG (Recommended for Privacy)
 - **Free Tier:** Unlimited with local model
@@ -139,10 +120,7 @@ Select one of the following services based on your needs:
 - **Quality:** ⭐⭐⭐⭐ Very Good
 - **Speed:** ⚡⚡⚡⚡ Fast
 
-**Get API Key:**
-1. Visit [withoutbg.com](https://withoutbg.com)
-2. Sign up for API access
-3. Get your API key from dashboard
+**Get API Key:** [withoutbg.com](https://withoutbg.com)
 
 #### 🎯 Pixian.AI (Recommended for Testing)
 - **Free Tier:** 0.25mpx unlimited
@@ -150,10 +128,7 @@ Select one of the following services based on your needs:
 - **Quality:** ⭐⭐⭐ Good
 - **Speed:** ⚡⚡⚡ Medium
 
-**Get API Key:**
-1. Visit [pixian.ai/api](https://pixian.ai/api)
-2. Register for API access
-3. Obtain your API credentials
+**Get API Key:** [pixian.ai/api](https://pixian.ai/api)
 
 #### 💎 RemovebgAPI (Recommended for Developers)
 - **Free Tier:** 100 credits
@@ -161,10 +136,7 @@ Select one of the following services based on your needs:
 - **Quality:** ⭐⭐⭐⭐ Very Good
 - **Speed:** ⚡⚡⚡⚡⚡ Very Fast
 
-**Get API Key:**
-1. Visit [removebgapi.com](https://removebgapi.com)
-2. Sign up for free account
-3. Generate API key instantly (no credit card)
+**Get API Key:** [removebgapi.com](https://removebgapi.com)
 
 ### 2. Configure Environment
 
@@ -174,22 +146,6 @@ Edit your `.env` file:
 # Example: Using Remove.bg
 VITE_REMOVEBG_API_KEY=your_actual_api_key_here
 VITE_SELECTED_SERVICE=removebg
-
-# Or using PhotoRoom
-VITE_PHOTOROOM_API_KEY=your_actual_api_key_here
-VITE_SELECTED_SERVICE=photoroom
-
-# Or using WithoutBG
-VITE_WITHOUTBG_API_KEY=your_actual_api_key_here
-VITE_SELECTED_SERVICE=withoutbg
-
-# Or using Pixian
-VITE_PIXIAN_API_KEY=your_actual_api_key_here
-VITE_SELECTED_SERVICE=pixian
-
-# Or using RemovebgAPI
-VITE_REMOVEBGAPI_KEY=your_actual_api_key_here
-VITE_SELECTED_SERVICE=removebgapi
 ```
 
 ### 3. Restart Development Server
@@ -217,50 +173,34 @@ npm run dev
    - Preview the result with transparent background
    - Click "Download Result" to save the image
 
-### Switching API Services
+---
 
-To switch between services:
+## 🚀 Deployment
 
-1. Update `VITE_SELECTED_SERVICE` in your `.env` file
-2. Make sure the corresponding API key is set
-3. Restart the development server
+### Deploy to GitHub Pages (Automatic)
 
-```env
-# Switch to PhotoRoom
-VITE_SELECTED_SERVICE=photoroom
-VITE_PHOTOROOM_API_KEY=your_key_here
+✅ **Already configured!** Just push to main branch:
+
+```bash
+git push origin main
 ```
+
+Your site will be automatically deployed to:
+**https://kevinriverrrr-sudo.github.io/PhotoRemover/**
+
+See [GitHub Pages Setup Guide](docs/GITHUB_PAGES_SETUP.md) for details.
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kevinriverrrr-sudo/PhotoRemover)
+
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kevinriverrrr-sudo/PhotoRemover)
 
 ---
 
 ## 🛠️ Development
-
-### Project Structure
-
-```
-PhotoRemover/
-├── src/
-│   ├── components/          # React components
-│   │   ├── Scene3D.tsx       # 3D background scene
-│   │   ├── ImageProcessor.tsx # Main image processing UI
-│   │   └── ApiSelector.tsx   # API service selector
-│   ├── services/            # API integrations
-│   │   ├── api.ts            # API service implementations
-│   │   └── config.ts         # API configurations
-│   ├── types/               # TypeScript types
-│   │   └── index.ts          # Type definitions
-│   ├── App.tsx              # Main application component
-│   ├── App.css              # Application styles
-│   ├── main.tsx             # Application entry point
-│   └── index.css            # Global styles
-├── public/                  # Static assets
-├── index.html               # HTML template
-├── package.json             # Dependencies
-├── tsconfig.json            # TypeScript config
-├── vite.config.ts           # Vite config
-├── tailwind.config.js       # Tailwind config
-└── .env.example             # Environment template
-```
 
 ### Available Scripts
 
@@ -278,53 +218,18 @@ npm run preview
 npm run lint
 ```
 
-### Adding New API Service
+### Project Structure
 
-1. Add API configuration to `src/services/config.ts`
-2. Implement API call in `src/services/api.ts`
-3. Update TypeScript types in `src/types/index.ts`
-4. Add service to `ApiSelector.tsx` component
-5. Update `.env.example` with new environment variables
-
----
-
-## 📤 Building for Production
-
-```bash
-# Build optimized production bundle
-npm run build
-
-# Preview production build locally
-npm run preview
 ```
-
-The built files will be in the `dist/` directory, ready for deployment.
-
----
-
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kevinriverrrr-sudo/PhotoRemover)
-
-1. Click the button above
-2. Add your API keys as environment variables
-3. Deploy!
-
-### Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kevinriverrrr-sudo/PhotoRemover)
-
-1. Click the button above
-2. Configure environment variables
-3. Deploy!
-
-### Manual Deployment
-
-```bash
-npm run build
-# Upload the dist/ folder to your hosting provider
+PhotoRemover/
+├── src/
+│   ├── components/          # React components
+│   ├── services/            # API integrations
+│   ├── types/               # TypeScript types
+│   └── App.tsx              # Main app
+├── docs/                    # Documentation
+├── .github/workflows/       # CI/CD
+└── package.json             # Dependencies
 ```
 
 ---
@@ -339,12 +244,7 @@ Contributions are welcome! Here's how you can help:
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
-### Development Guidelines
-
-- Follow existing code style
-- Write meaningful commit messages
-- Test your changes thoroughly
-- Update documentation if needed
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
@@ -354,7 +254,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Attribution Required:** When using this project, you must:
 - Keep the original license notice
-- Provide a link to this repository: https://github.com/kevinriverrrr-sudo/PhotoRemover
+- Provide a link to this repository
 - Credit the original author: [kevinriverrrr-sudo](https://github.com/kevinriverrrr-sudo)
 
 ---
@@ -363,6 +263,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - **Issues:** [GitHub Issues](https://github.com/kevinriverrrr-sudo/PhotoRemover/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/kevinriverrrr-sudo/PhotoRemover/discussions)
+- **Live Demo:** [Try it now](https://kevinriverrrr-sudo.github.io/PhotoRemover/)
 
 ---
 
@@ -383,7 +284,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ![GitHub stars](https://img.shields.io/github/stars/kevinriverrrr-sudo/PhotoRemover?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/kevinriverrrr-sudo/PhotoRemover?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/kevinriverrrr-sudo/PhotoRemover)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kevinriverrrr-sudo/PhotoRemover)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/kevinriverrrr-sudo/PhotoRemover/deploy.yml?branch=main&label=deploy)
 
 ---
 
@@ -402,7 +303,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ by [kevinriverrrr-sudo](https://github.com/kevinriverrrr-sudo)**
 
-**Star ⭐ this repo if you find it useful!**
+🌍 **[Try Live Demo](https://kevinriverrrr-sudo.github.io/PhotoRemover/)** ⭐ **[Star this repo](https://github.com/kevinriverrrr-sudo/PhotoRemover)**
 
 [Report Bug](https://github.com/kevinriverrrr-sudo/PhotoRemover/issues) · [Request Feature](https://github.com/kevinriverrrr-sudo/PhotoRemover/issues)
 
